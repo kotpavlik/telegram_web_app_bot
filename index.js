@@ -46,7 +46,6 @@ const start = async () => {
             const chatId = msg.chat.id;
             const user_name = msg.from.username
             const text = msg.text
-
             if (text === '/start') {
                 await bot.sendMessage(chatId, `Привет ${user_name}🤘🏽
 Ты в telegram боте лучшего Беларуского бренда Pink Punk🤘🏽 `, {});
