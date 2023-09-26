@@ -10,7 +10,7 @@ import path from 'path'
 
 
 dotenv.config()
-const PORT = 8088
+const PORT = 8088 || process.env.PORT
 const token = process.env.TOKEN;
 const app = express()
 
