@@ -49,7 +49,7 @@ const start = async () => {
 
             if (text === '/start') {
                 await bot.sendMessage(chatId, `Привет ${user_name}🤘🏽
-Ты в telegram боте лучшего Беларуского бренда Pink Punk`, {});
+Ты в telegram боте лучшего Беларуского бренда Pink Punk🤘🏽 `, {});
             }
         });
 
