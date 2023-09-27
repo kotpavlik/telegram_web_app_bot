@@ -2,14 +2,14 @@
     "name": "tg_web_app_bot",
     "version": "1.0.0",
     "description": "app for sales",
-    "main": "index.js",
+    "main": "index.mjs",
     "engines": {
         "node": "18.17.1"
 
     },
     "type": "module",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.mjs"
     },
     "author": "Igor Anufriev",
     "license": "MIT",
