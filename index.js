@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express'
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
-import PinkPunkRoutes from './Routes/PinkPunkRoutes.mjs';
+import PinkPunkRoutes from './Routes/PinkPunkRoutes.js';
 import fileUload from 'express-fileupload';
 import cors from 'cors';
 import path from 'path'
@@ -14,7 +14,6 @@ const PORT = 8088 || process.env.PORT
 const token = process.env.TOKEN;
 const app = express()
 
-//blyad deploysya kurva 
 app.use(cors({
     origin: ["https://b7cc-51-158-62-88.ngrok-free.app", "http://localhost:3000"],
     credentials: true,

@@ -1,7 +1,7 @@
 import {
     Router
 } from "express";
-import ClothesController from '../PinkPunkController/clothesController.mjs';
+import ClothesController from '../PinkPunkController/clothesController.js';
 
 const router = Router()
 
