@@ -4,7 +4,7 @@
     "description": "app for sales",
     "main": "index.js",
     "engines": {
-        "node": "18.x"
+        "node": "18.15.0"
     },
     "type": "module",
     "scripts": {
