@@ -4,7 +4,7 @@
             "dest": "/"
         },
         {
-            "src": "/api/clothes",
+            "src": "/v1/clothes",
             "dest": "/"
         }
     ]
