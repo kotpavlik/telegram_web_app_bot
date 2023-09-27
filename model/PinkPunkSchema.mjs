@@ -22,4 +22,5 @@ const Clothes = new mongoose.Schema({
     }
 })
 
+
 export default mongoose.model('Clothes', Clothes)
