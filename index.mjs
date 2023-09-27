@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express'
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
-import PinkPunkRoutes from './Routes/PinkPunkRoutes.js';
+import PinkPunkRoutes from './Routes/PinkPunkRoutes.mjs';
 import fileUload from 'express-fileupload';
 import cors from 'cors';
 import path from 'path'

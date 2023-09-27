@@ -1,5 +1,5 @@
-import Clothes from '../model/PinkPunkSchema.js';
-import FileService from './fileService.js'
+import Clothes from '../model/PinkPunkSchema.mjs';
+import FileService from './fileService.mjs'
 
 class Service {
     async getAll() {
