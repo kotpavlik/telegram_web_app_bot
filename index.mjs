@@ -14,7 +14,7 @@ const PORT = 8088 || process.env.PORT
 const token = process.env.TOKEN;
 const app = express()
 
-
+//blyad deploysya kurva 
 app.use(cors({
     origin: ["https://b7cc-51-158-62-88.ngrok-free.app", "http://localhost:3000"],
     credentials: true,
