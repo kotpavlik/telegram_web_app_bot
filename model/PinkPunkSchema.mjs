@@ -1,5 +1,6 @@
 import mongoose from 'mongoose'
 
+
 const Clothes = new mongoose.Schema({
     name: {
         type: String,
