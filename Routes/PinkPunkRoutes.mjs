@@ -5,7 +5,6 @@ import ClothesController from '../PinkPunkController/clothesController.mjs';
 
 const router = Router()
 
-
 router.get('/clothes', ClothesController.getAll)
 router.post('/clothes', ClothesController.create)
 router.get('/clothes/:id', ClothesController.getOne)
