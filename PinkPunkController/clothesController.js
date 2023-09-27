@@ -1,5 +1,5 @@
-import Clothes from '../model/PinkPunkSchema.mjs';
-import Service from '../PinkPunkService/service.mjs'
+import Clothes from '../model/PinkPunkSchema.js';
+import Service from '../PinkPunkService/service.js'
 
 
 
