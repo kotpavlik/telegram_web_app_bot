@@ -9,5 +9,6 @@
         "src": "/(.*)",
 
         "dest": "index.mjs"
-    }]
+    }],
+    "rewrites": [{ "source": "/v1/(.*)", "destination": "/v1" }]
 }
