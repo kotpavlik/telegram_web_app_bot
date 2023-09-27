@@ -1,14 +1,13 @@
 {
     "version": 2,
     "builds": [{
-        "src": "index.mjs",
-        "use": "@now/node"
+        "src": "*.mjs",
+        "use": "@vercel/node"
     }],
     "routes": [{
 
         "src": "/(.*)",
 
         "dest": "index.mjs"
-    }],
-    "rewrites": [{ "source": "/v1/(.*)", "destination": "/v1" }]
+    }]
 }
