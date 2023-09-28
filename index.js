@@ -37,7 +37,7 @@ const start = async () => {
         await mongoose.connect(process.env.DB_URI, {})
 
         const bot = new TelegramBot(token, {
-            polling: false
+            polling: true
         });
 
         bot.on('message', async (msg) => {
