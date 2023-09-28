@@ -32,8 +32,6 @@ app.use(cookieParser());
 
 
 
-
-
 const start = async () => {
     try {
         await mongoose.connect(process.env.DB_URI, {})
